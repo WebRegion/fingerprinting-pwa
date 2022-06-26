@@ -1,0 +1,5 @@
+{
+  "title": "Test 3: WebGL",
+  "information": "The final test is the most simple. It utilises and checks for the GPU of the device, and most browsers do not give up this information efficiently. The data is then sent to a file to hash its output into a number (maximum of 18 digits).",
+  "testdata": "Data Storage: Cookie 'test_3_data'."  
+}

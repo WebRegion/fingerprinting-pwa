@@ -1,0 +1,40 @@
+/* Made By Richard Anderson!
+    Contact Me: https://links.richardjanderson.uk
+    Designed for Project "Fingerprint Generator" (https://github.com/richardjanderson9/fingerprint-generator). */
+
+.modal-no-change {
+  color: #000000;
+}
+
+.colour_1 {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.colour_1 .round-btn-design {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.colour_2 {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.colour_2 .round-btn-design {
+  background-color: #4bb523;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.colour_3 {
+  background-color: #000000;
+  color: #EDD1B0;
+}
+
+.colour_3 .round-btn-design {
+  background-color: #000000;
+  border-color: #EDD1B0;
+  color: #EDD1B0;
+}
+

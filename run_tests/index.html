@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <title>Fingerprint Generator | Made by Richard Anderson!</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   <!-- Icons and Colors -->
+   <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+   <link rel="manifest" href="./manifest.json">
+   <link rel="mask-icon" href="./assets/img/maskable_icon.png" color="#000000">
+   <link rel="shortcut icon" href="./assets/img/favicon-32x32.png">
+   <meta name="msapplication-TileColor" content="#000000">
+   <meta name="msapplication-TileImage" content="./assets/img/mstile-144x144.png">
+   <meta name="msapplication-config" content="./assets/data/xml/browserconfig.xml">
+   <meta name="theme-color" content="#000000">	
+   <!-- Styles -->
+   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="/assets/fonts/fontawesome-all.min.css">
+   <link rel="stylesheet" href="/assets/css/functionality/basic-design.css">
+   <link rel="stylesheet" href="/assets/css/functionality/loading-animation.css">
+   <link rel="stylesheet" href="/assets/css/functionality/page-formatting.css">
+   <link rel="stylesheet" href="/assets/css/functionality/user_customisation.css">
+   <!-- Javscript -->
+   <script>
+       if ("serviceWorker" in navigator) {
+           window.addEventListener("load", () => {
+               navigator.serviceWorker && navigator.serviceWorker.register("./sw.js");
+           });
+       }
+   </script>
+   <script defer src="/assets/js/jquery.min.js"></script>
+   <script defer src="/assets/bootstrap/js/bootstrap.min.js"></script>
+   <script defer src="/assets/js/functionality/all_tests.js"></script>
+   <script defer src="/assets/js/functionality/cookies.js"></script>
+   <script defer src="/assets/js/functionality/information_replace.js"></script>
+   <script defer src="/assets/js/functionality/js_check.js"></script>
+   <script defer src="/assets/js/functionality/user_customisation.js"></script>
+</head>
+
+<body id="colour-scheme" style="height: 100vh;" onload="load_stuff_tests();">
+    <div id="visible-information">
+        <header class="text-center" style="position: absolute;top: 40%;-ms-transform: translateY(-60%);transform: translateY(-60%);width: 100%;">
+            <h1><span style="text-decoration: underline;">Test Results!</span></h1>
+            <div class="testing-formatting">
+                <div class="col-md-6 offset-md-3">
+                    <div style="display: inline-flex;">
+                        <p id="test_1_title" class="testing-text" style="text-align: right;">Test 1:&nbsp;</p>
+                        <p id="test_1_data" class="testing-text" style="text-align: left;">Awaiting Start!</p><a class="testing-link" data-bs-toggle="modal" href="#modal-fingerprint"><button class="btn testing-button" id="test_1_data" type="button"><i class="fas fa-info-circle testing-icon"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="testing-formatting">
+                <div class="col-md-6 offset-md-3">
+                    <div style="display: inline-flex;">
+                        <p id="test_2_title" class="testing-text" style="text-align: right;">Test 2:&nbsp;</p>
+                        <p id="test_2_data" class="testing-text" style="text-align: left;">Awaiting Start!</p><a class="testing-link" data-bs-toggle="modal" href="#modal-fingerprint"><button class="btn testing-button" id="test_2_data" type="button"><i class="fas fa-info-circle testing-icon"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="testing-formatting">
+                <div class="col-md-6 offset-md-3">
+                    <div style="display: inline-flex;">
+                        <p id="test_3_title" class="testing-text" style="text-align: right;">Test 3:&nbsp;</p>
+                        <p id="test_3_data" class="testing-text" style="text-align: left;">Awaiting Start!</p><a class="testing-link" data-bs-toggle="modal" href="#modal-fingerprint"><button class="btn testing-button" id="test_3_data" type="button"><i class="fas fa-info-circle testing-icon"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <footer class="d-lg-flex justify-content-lg-center align-items-lg-end" style="position: fixed;bottom: 2.5vh;width: 100%;">
+            <div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 offset-2 offset-sm-3 offset-md-4 offset-lg-0 offset-xl-0 offset-xxl-0"><a class="btn d-sm-flex justify-content-sm-center align-items-sm-center round-btn-design" role="button" href="https://github.com/richardjanderson9/fingerprint-generator" style="width: 100%;" target="_blank"><i class="fas fa-external-link-alt"></i>&nbsp; Github | Source Code<br></a></div>
+        </footer>
+        <div class="modal" role="dialog" tabindex="-1" id="modal-fingerprint" style="color:black;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title adapt-title" id="modal-title"></h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="modal-information" class="adapt-information" style="text-align: justify;"></p>
+                        <p id="fingerprint-data" class="cookie-data" style="text-align: justify;"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/jquery.min.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js?h=5488c86a1260428f0c13c0f8fb06bf6a"></script>
+    <script src="/assets/js/functionality/all_tests.js?h=19c16a4f1e0a5729904ce538a20ca755"></script>
+    <script src="/assets/js/functionality/cookies.js?h=d36568e83d861db7ee002e61aa9e915b"></script>
+    <script src="/assets/js/functionality/information_replace.js?h=662070dfd91c72552f7cbe8ba862b865"></script>
+    <script src="/assets/js/functionality/js_check.js?h=297d0f5a1505dde4737998bfb469822a"></script>
+    <script src="/assets/js/functionality/user_customisation.js?h=91c3eba68e4d8bc8ec3cca01f8f5cad8"></script>
+</body>
+
+</html>

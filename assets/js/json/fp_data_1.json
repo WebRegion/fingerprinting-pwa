@@ -1,0 +1,5 @@
+{
+  "title": "Test 1: Fingerprint-JS",
+  "information": "This test includes the utilisation of an enterprise solution to test your device. The solution is open-source and enables a browser's device to be taken, and the enterprise solution has not been allowed here because it requires an external API service.",
+  "testdata": "Data Storage: Cookie 'test_1_data'."  
+}

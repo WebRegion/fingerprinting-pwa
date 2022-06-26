@@ -1,0 +1,5 @@
+{
+  "title": "Test 2: Canvas Graphic",
+  "information": "This test includes utilising a public solution to check for your device's information and builds a fingerprint of this data. It also produces a second fingerprint off pre-set information, which includes loading text in a hidden canvas tag, it and evaluating specific information points about how the devices load it.",
+  "testdata": "Data Storage: Cookie 'test_2_data'."  
+}

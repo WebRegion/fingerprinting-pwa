@@ -1,0 +1,93 @@
+/* Made By Richard Anderson!
+    Contact Me: https://links.richardjanderson.uk
+    Designed for Project "Fingerprint Generator" (https://github.com/richardjanderson9/fingerprint-generator). */
+
+/* Overlay Button! */
+
+.overlay-button {
+  position: fixed;
+  padding: 8px 12px;
+  z-index: 99;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 24px;
+}
+
+@media only screen and (max-width: 720px) {
+  .overlay-button {
+    bottom: 85px;
+    right: 35px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .overlay-button {
+    bottom: 80px;
+    right: 80px;
+  }
+}
+
+/* Save and Exit Button! */
+
+.cust-btn-design {
+  border-color: #000000;
+  margin: 0px 3.25px;
+  border-width: 1px;
+}
+
+/* Start Tests Button! */
+
+.round-btn-design {
+  border-color: black;
+  border-radius: 22px;
+  margin: 0px 3.25px;
+  border-width: 1px;
+}
+
+/* Formatting for Section (1) */
+
+.option-section {
+  margin-bottom: 5px;
+}
+
+.heading-display {
+  padding: 0px;
+  margin: 3.5px 0px;
+}
+
+/* (1) ENDS! */
+
+/* Blocks Changes to COlour (Modal)! */
+
+.modal-no-change {
+  color: black;
+}
+
+/* Option Selection Colour Display! */
+
+.colour-display {
+  border: 3px solid black;
+  padding: 0px;
+  height: 35px;
+  margin: 0px;
+}
+
+/* Colour for Option-1. */
+
+.option-1 {
+  background: linear-gradient(to right, #000000 50%, #ffffff 50%);
+}
+
+/* Colour for Option-2. */
+
+.option-2 {
+  background: linear-gradient(to right, #000000 0, #000000 33%, #4bb523 33%, #4bb523 66%, #ffffff 66%, #ffffff 100%);
+}
+
+/* Colour for Option-3 */
+
+.option-3 {
+  background: linear-gradient(to right, #000000 50%, #EDD1B0 50%);
+}
+
