@@ -32,3 +32,7 @@ function change_colour(data){
     document.getElementById(body_id).classList.add(selected_colour);    
 }
 
+
+function set_theme_1(){
+    change_colour("colour_1");
+}

@@ -10,6 +10,8 @@ function load_stuff_home(){
     check_cookie("home"); // Located: user_customisation.js    
     // Loads Animation to check for JS.
     setTimeout(check_js, 400); // Located: Below!
+    // Makes Page Themed!
+    set_theme_1();
 }
 
 // Re-Directs Page!
